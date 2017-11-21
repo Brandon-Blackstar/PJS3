@@ -3,13 +3,13 @@
     float: left;
     top: 5%;
     left: 5%;
-    width: 260px;
-    height: 260px;
+    width: 15em;
+    height: 15em;
 }
 
 #portrait:hover {
-    width: 270px;
-    height: 270px;
+    width: 17em;
+    height: 17em;
     top: 4.65%;
     left: 4.7%;
     -webkit-transition: 0.5s;
