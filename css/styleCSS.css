@@ -1,30 +1,22 @@
-.head {
-    position: relative;
-    background-size:;
-}
-
 .portrait {
     position: absolute;
     top: 3px;
     left: 1em;
-    width: 12%;
-    height: 40%;
+    width: 10em;
+    height: 10em;
 }
 
 .font_2 {
     position: relative;
-    left: 12%;
-    size: 10%;
+    font-family: pristina;
+    font-weight: normal;
+    font-size: 4em;
+    text-align: left;
+    left: 2.2em;
 }
 
-.full_screen {
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-}
 
-/*#portrait:hover {
+/*.portrait:hover {
     width: 17em;
     height: 17em;
     top: 4.65%;
