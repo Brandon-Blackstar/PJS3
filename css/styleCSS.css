@@ -1,16 +1,33 @@
-#portrait {
-    position: absolute;
-    float: left;
-    top: 5%;
-    left: 5%;
-    width: 15em;
-    height: 15em;
+.head {
+    position: relative;
+    background-size:;
 }
 
-#portrait:hover {
+.portrait {
+    position: absolute;
+    top: 3px;
+    left: 1em;
+    width: 12%;
+    height: 40%;
+}
+
+.font_2 {
+    position: relative;
+    left: 12%;
+    size: 10%;
+}
+
+.full_screen {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*#portrait:hover {
     width: 17em;
     height: 17em;
     top: 4.65%;
     left: 4.7%;
     -webkit-transition: 0.5s;
-}
+}*/
