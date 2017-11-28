@@ -58,13 +58,19 @@ img.item_active {
 
 
 
-body{
-	color: red;
-}
+
 
 #banniere{
 	background-image: url("téléchargement.jpg");
 }
+
+#Titre{
+	border-style : solid;
+	text-align:center;
+	width: 40%;
+	margin:auto;
+}
+
 .box{
 	display:flex;
 	height:30em;
@@ -113,5 +119,7 @@ body{
 	box-sizing:border-box;
 	display:flex;
 }
+
+
 
 
