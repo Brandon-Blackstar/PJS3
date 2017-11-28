@@ -16,10 +16,10 @@
 }
 
 
-/*.portrait:hover {
-    width: 17em;
-    height: 17em;
-    top: 4.65%;
-    left: 4.7%;
+.portrait:hover {
+    width: 11em;
+    height: 11em;
+    top: 0.5px;
+    left: 0.5em;
     -webkit-transition: 0.5s;
-}*/
+}
