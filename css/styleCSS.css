@@ -23,3 +23,8 @@
     left: 0.5em;
     -webkit-transition: 0.5s;
 }
+
+#container {
+    display: flex;
+    height: 150px;
+}
