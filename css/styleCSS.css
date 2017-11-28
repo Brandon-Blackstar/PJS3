@@ -53,3 +53,65 @@ img.item_active {
 	-moz-animation: fadeImg 0.8s;
 	animation: fadeImg 0.8s;
 }
+
+
+
+
+
+body{
+	color: red;
+}
+
+#banniere{
+	background-image: url("téléchargement.jpg");
+}
+.box{
+	display:flex;
+	height:30em;
+	margin-top:5em;
+	margin-bottom:5em;
+}
+#image_fest_noz{
+	margin-left:2.5%;
+	margin-right:2.5%;
+	width:40%;
+	background-image:url("fest_noz.jpg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+#image_biniou{
+	margin-left:2.5%;
+	margin-right:2.5%;
+	width:40%;
+	background-image:url("biniou-3.jpg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size:50em;
+}
+#image_kan_ha_diskan{
+	margin-left:2.5%;
+	margin-right:2.5%;
+	width:40%;
+	background-image:url("kan_ha_diskan.jpg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size:50em;
+}
+
+.text-box{
+	margin:auto;
+	height:inherit;
+	width:100%;
+}
+.background{
+	background-color:#CECECE;
+	width:50%;
+	padding-right:2.5%;
+	padding-left:2.5%;
+	box-sizing:border-box;
+	display:flex;
+}
+
+
