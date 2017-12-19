@@ -76,7 +76,7 @@ body{
 }
 		
 #banniere_img {
-	background-image: url("téléchargement.jpg");
+	background-image: url("../img/téléchargement.jpg");
 	grid-row:2;
 	grid-column:1/6; /*commence a la 1ere colonne et se termine à la 6e*/
 }
@@ -118,7 +118,7 @@ body{
 	margin-left:2.5%;
 	margin-right:2.5%;
 	width:40%;
-	background-image:url("fest_noz.jpg");
+	background-image:url("../img/fest_noz.jpg");
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 }
@@ -126,7 +126,7 @@ body{
 	margin-left:2.5%;
 	margin-right:2.5%;
 	width:40%;
-	background-image:url("biniou-3.jpg");
+	background-image:url("../img/biniou-3.jpg");
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -136,7 +136,7 @@ body{
 	margin-left:2.5%;
 	margin-right:2.5%;
 	width:40%;
-	background-image:url("kan_ha_diskan.jpg");
+	background-image:url("../img/kan_ha_diskan.jpg");
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-position: left center;
