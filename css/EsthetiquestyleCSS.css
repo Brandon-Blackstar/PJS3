@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url(//db.onlinewebfonts.com/c/3591a95e9abd510d170b0ba4077e70d3?family=NimbusSanTW01Con);
+
+* {
+	font-family: playfair display,serif;
+}
 
 body{
 	padding-left: 2em;
@@ -27,11 +34,20 @@ body{
 #menu li{
 	list-style-type: none;
     border: thin solid;
+    border-radius: 5px;
     margin-top: 2em;
     margin-bottom: 2em;
     margin-right: 2em;
 	padding:1em;
     text-align: center;
+}
+
+#menu h1 {
+	letter-spacing: 0.1em;
+}
+
+#menu li a {
+	font-family:josefin slab, serif;
 }
 
 #Titre{
@@ -85,6 +101,7 @@ body{
 	margin:auto;
 	height:inherit;
 	width:100%;
+	font-family: nimbus-sans-tw01con,sans-serif;
 }
 .background{
 	background-color:#CECECE;
