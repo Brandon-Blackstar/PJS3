@@ -12,7 +12,7 @@ body{
 }
 		
 #banniere_img{
-	background-image: url("../img/téléchargement.jpg");
+	background-image: url("../img/coreff_biere.jpg");
 	grid-row:2;
 	grid-column:1/6; /*commence a la 1ere colonne et se termine à la 6e*/
 }
