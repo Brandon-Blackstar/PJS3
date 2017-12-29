@@ -1,0 +1,20 @@
+#première_image{
+	background-image:url("../img/fest_noz.jpg");
+}
+
+#deuxième_image{
+	width:30%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size:35%;
+	background-image:url("../img/biniou-3.jpg");
+}
+/* #troisième_image{ */
+	/* width:30%; */
+	/* background-attachment:fixed; */
+	/* background-repeat: no-repeat; */
+	/* background-position: left center; */
+	/* background-size:35%; */
+	/* background-image:url("../img/kan_ha_diskan.jpg"); */
+/* } */
