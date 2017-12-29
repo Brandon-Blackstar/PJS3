@@ -1,0 +1,16 @@
+#première_image{
+	background-image:url("../img/AnneDeBretagne.jpg");
+}
+
+#deuxième_image{
+	background-image:url("../img/Catholicon1499.jpg");
+}
+
+#deuxième_image{
+	width:30%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size:35%;
+	background-image:url("../img/Catholicon1499.jpg");
+}
