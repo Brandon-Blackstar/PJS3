@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url(//db.onlinewebfonts.com/c/3591a95e9abd510d170b0ba4077e70d3?family=NimbusSanTW01Con);
+
 * {
-	list-style: none;
+	font-family: playfair display,serif;
 }
 
 .portrait {
@@ -63,39 +67,48 @@ img.item_active {
 
 
 
-body{
-	padding-left: 2em;
-	padding-right:2em;
-}
+
 
 #banniere{
-	/* height:200%; */
 	display:grid; 
 	grid-template-columns: repeat(5, 1fr); /*5colonnes de taille 1 fragment */
 	grid-template-rows: 2fr;
+	border:solid;
 }
 		
 #banniere_img {
-	background-image: url("../img/téléchargement.jpg");
+	background-image: url("../img/coreff_biere.jpg");
 	grid-row:2;
 	grid-column:1/6; /*commence a la 1ere colonne et se termine à la 6e*/
+	border:solid;
 }
 
 #menu{
 	background-color: RGBa(211, 211, 211, 0.7); /*"a" pour utiliser la transparence*/
 	border-width:thin;
-	grid-row:2;
+	grid-row:2; 
 	grid-column:5; /*5e colonne*/
+	border:solid;
 }
 
 #menu li{
-	list-style-type: none;
+	list-style-type: none; /*enlever les puces*/
     border: thin solid;
+	border-radius: 5px;
     margin-top: 2em;
     margin-bottom: 2em;
     margin-right: 2em;
 	padding:1em;
     text-align: center;
+}
+
+#menu h1 {
+	letter-spacing: 0.1em;
+}
+
+a{
+	text-decoration:none; /*enlever le soulignement*/
+	font-family:josefin slab, serif;
 }
 
 #Titre{
@@ -110,51 +123,61 @@ body{
 
 .box{
 	display:flex;
-	height:30em;
+	height:25em;
 	margin-top:5em;
 	margin-bottom:5em;
+	padding-left:2em;
+	padding-right:2em;
+	border:solid;
 }
 #première_image{
-	margin-left:2.5%;
-	margin-right:2.5%;
-	width:40%;
+	width:30%;
 	background-image:url("../img/fest_noz.jpg");
 	background-attachment:fixed;
 	background-repeat: no-repeat;
+	background-size:40%;
+	border:solid;
 }
 #deuxième_image{
-	margin-left:2.5%;
-	margin-right:2.5%;
-	width:40%;
+	width:30%;
 	background-image:url("../img/biniou-3.jpg");
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-position: right center;
-	background-size:50em;
+	background-size:35%;
+	border:solid;
 }
 #troisième_image{
-	margin-left:2.5%;
-	margin-right:2.5%;
-	width:40%;
+	width:30%;
 	background-image:url("../img/kan_ha_diskan.jpg");
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size:50em;
+	background-size:35%;
+	border:solid;
 }
 
 .text-box{
 	margin:auto;
 	height:inherit;
 	width:100%;
+	font-family: nimbus-sans-tw01con,sans-serif;
+	border:solid;
 }
+
 .background{
 	background-color:#CECECE;
-	width:50%;
+	width:60%;
 	padding-right:2.5%;
 	padding-left:2.5%;
+	margin-right:4%;
+	margin-left:4%;
 	box-sizing:border-box;
 	display:flex;
+	border:solid;
+}
+#IDbackground{
+	margin-left:8%;
 }
 h1{
 	text-align:center;
