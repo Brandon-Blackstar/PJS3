@@ -1,0 +1,44 @@
+#première_image{
+	background-image:url("../img/sardines-la-quiberonnaise-14.jpg");
+}
+
+#deuxième_image{
+	width:30%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size:35%;
+	background-image:url("../img/saint_jacques.jpg");
+}
+#troisième_image{
+	width:30%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size:35%;
+	background-image:url("../img/galette.jpg");
+}
+#quatrième_image{
+	width:30%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size:35%;
+	background-image:url("../img/kig-ha-farz.jpg");
+}
+#cinquième_image{
+	width:30%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size:35%;
+	background-image:url("../img/Beurre.jpg");
+}
+#sixième_image{
+	width:30%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size:35%;
+	background-image:url("../img/andouille.jpg");
+}
