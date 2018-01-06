@@ -1,5 +1,5 @@
 #première_image{
-	background-image:url("../img/fest_noz.jpg");
+	background-image:url("../img/broceliande.jpg");
 }
 
 #deuxième_image{
@@ -8,7 +8,7 @@
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size:35%;
-	background-image:url("../img/biniou-3.jpg");
+	background-image:url("../img/golfe.jpg");
 }
 #troisième_image{
 	width:30%;
@@ -16,5 +16,5 @@
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size:35%;
-	background-image:url("../img/kan_ha_diskan.jpg");
+	background-image:url("../img/trebiguet.jpg");
 }
