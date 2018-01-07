@@ -5,6 +5,7 @@
 * {
 	font-family: playfair display,serif;
 	list-style: none;
+	padding: inherit;
 }
 
 .portrait {
@@ -33,15 +34,14 @@
 	-webkit-transition: 0.5s;
 }
 
-#container {
+/*#container {
 	display: flex;
-	height: 150px;
+	/*height: 150px;*/
 }
 
 .carousel {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-    margin-top: 26px;
 }
 
 .carousel-inner {
@@ -52,18 +52,31 @@
 
 .carousel-open:checked + .carousel-item {
     position: static;
-    opacity: 100;
+    /*opacity: 100;*/
+}
+
+.carousel-open:checked + .carousel-item img {
+	display: block;
+}
+
+.carousel-open:checked + .carousel-item #menu{
+	display: block;
 }
 
 .carousel-item {
+	display: flex;
     position: absolute;
-    opacity: 0;
+    /*opacity: 0;*/
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
 }
 
+.carousel-item #menu {
+	display: none;
+}
+
 .carousel-item img {
-    display: block;
+    display: none;
     height: auto;
     max-width: 100%;
 }
@@ -71,7 +84,7 @@
 .carousel-control {
     background: rgba(0, 0, 0, 0.28);
     border-radius: 50%;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     display: none;
     font-size: 40px;
@@ -156,46 +169,6 @@
 
 
 
-/*.arrow {
-	width: 32px;
-	height: 32px;
-}
-
-.arrow#Right {
-	right: 0px;
-}
-
-img.item {
-	max-width: 100%;
-	display: none;
-	-webkit-box-shadow: 10px 10px 20px 0px rgba(94,47,59,0.2);
-	-moz-box-shadow: 10px 10px 20px 0px rgba(94,47,59,0.2);
-	box-shadow:  10px 10px 20px 0px rgba(94,47,59,0.2);
-}
-
-img.item_active {
-	display: block;
-	-webkit-animation: fadeImg 0.8s;
-	-moz-animation: fadeImg 0.8s;
-	animation: fadeImg 0.8s;
-}
-
-.element .arrow {
-	flex: 0 0 15%;
-}
-
-.element a {
-	flex-basis: 100%;
-	display: -webkit-box;
-	display: flex;
-}
-*/
-
-
-
-
-
-
 
 #banniere{
 	display:grid; 
@@ -212,11 +185,9 @@ img.item_active {
 }
 
 #menu{
-	background-color: RGBa(211, 211, 211, 0.7); /*"a" pour utiliser la transparence*/
-	border-width:thin;
-	grid-row:2; 
-	grid-column:5; /*5e colonne*/
+	background-color: RGBa(211, 211, 211, 5); /*"a" pour utiliser la transparence*/
 	border:solid;
+	border-color: transparent;
 }
 
 #menu a {
@@ -227,10 +198,8 @@ img.item_active {
 	list-style-type: none; /*enlever les puces*/
     border: thin solid;
 	border-radius: 5px;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-right: 2em;
-	padding:1em;
+    margin: 2em;
+	padding: 1em;
     text-align: center;
 }
 
@@ -250,7 +219,7 @@ img.item_active {
 	letter-spacing: 0.1em;
 }
 
-a{
+a {
 	text-decoration:none; /*enlever le soulignement*/
 	font-family:josefin slab, serif;
 }
