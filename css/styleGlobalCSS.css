@@ -76,6 +76,8 @@ img.item_active {
 		
 #banniere_img {
 	background-image: url("../img/coreff_biere.jpg");
+	background-size:100%;
+	background-position:center;
 	grid-row:2;
 	grid-column:1/6; /*commence a la 1ere colonne et se termine à la 6e*/
 }
@@ -105,6 +107,12 @@ img.item_active {
 a{
 	text-decoration:none; /*enlever le soulignement*/
 	font-family:josefin slab, serif;
+}
+li:hover{
+	background-color:grey;
+}
+a:visited{
+	color:white;
 }
 
 #Titre{
